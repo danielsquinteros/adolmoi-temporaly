@@ -8,16 +8,16 @@ SEE OBJECTS/O-DIVIDER
 
 //DEFINE ARRAY WITH COLORS
 $colors: (
-    "primary": #172A3A, 
-    "secondary": #09BC8A, 
-    "disabled": #AEB6C3, 
-    "ocean": #75DDDD, 
-    "steel-ocean": #508891, 
+    "primary": #FE4B26, 
+    "secondary": #0E1923, 
+    "disabled": #CAD4E4, 
+    "success": #86C548, 
+    "error": #FF5252,
+    "ocean": #637B90, 
     "white": #ffffff, 
-    "dark": #0E1923, 
-    "blue": #0067FA, 
-    "light-blue": #A1E7FC, 
-    "light-red": #F56476, 
+    "gray": #F6F6F6, 
+    "mauve": #E58492, 
+    "champagne": #FFC090, 
     );
 
 :root {
@@ -89,8 +89,9 @@ $font-primary-body-levels: (
 
 $font-primary-weights: (
     "light": 300,
-    "medium": 500,
-    "bold": bold,
+    "regular": 400,
+    "semibold": 600,
+    "extrabold": 800,
 );
 
 @mixin font-size($level){

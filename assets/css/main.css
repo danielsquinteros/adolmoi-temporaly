@@ -1,23 +1,23 @@
 /* ========================================================================================= */
 /* SETTINGS */
 /* ========================================================================================= */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;800&display=swap");
 /*
 IMPORTANT!
 There should always be a color that is called primary and disabled
 SEE OBJECTS/O-DIVIDER
 */
 :root {
-  --color-primary:#172A3A;
-  --color-secondary:#09BC8A;
-  --color-disabled:#AEB6C3;
-  --color-ocean:#75DDDD;
-  --color-steel-ocean:#508891;
+  --color-primary:#FE4B26;
+  --color-secondary:#0E1923;
+  --color-disabled:#CAD4E4;
+  --color-success:#86C548;
+  --color-error:#FF5252;
+  --color-ocean:#637B90;
   --color-white:#ffffff;
-  --color-dark:#0E1923;
-  --color-blue:#0067FA;
-  --color-light-blue:#A1E7FC;
-  --color-light-red:#F56476;
+  --color-gray:#F6F6F6;
+  --color-mauve:#E58492;
+  --color-champagne:#FFC090;
 }
 
 /* ========================================================================================= */
@@ -97,32 +97,32 @@ ol, ul {
   background: var(--color-disabled);
 }
 
-.o-background--ocean {
-  background: var(--color-ocean);
+.o-background--success {
+  background: var(--color-success);
 }
 
-.o-background--steel-ocean {
-  background: var(--color-steel-ocean);
+.o-background--error {
+  background: var(--color-error);
+}
+
+.o-background--ocean {
+  background: var(--color-ocean);
 }
 
 .o-background--white {
   background: var(--color-white);
 }
 
-.o-background--dark {
-  background: var(--color-dark);
+.o-background--gray {
+  background: var(--color-gray);
 }
 
-.o-background--blue {
-  background: var(--color-blue);
+.o-background--mauve {
+  background: var(--color-mauve);
 }
 
-.o-background--light-blue {
-  background: var(--color-light-blue);
-}
-
-.o-background--light-red {
-  background: var(--color-light-red);
+.o-background--champagne {
+  background: var(--color-champagne);
 }
 
 .o-border-radius--6 {
@@ -209,32 +209,32 @@ ol, ul {
   color: var(--color-disabled);
 }
 
-.o-color--ocean {
-  color: var(--color-ocean);
+.o-color--success {
+  color: var(--color-success);
 }
 
-.o-color--steel-ocean {
-  color: var(--color-steel-ocean);
+.o-color--error {
+  color: var(--color-error);
+}
+
+.o-color--ocean {
+  color: var(--color-ocean);
 }
 
 .o-color--white {
   color: var(--color-white);
 }
 
-.o-color--dark {
-  color: var(--color-dark);
+.o-color--gray {
+  color: var(--color-gray);
 }
 
-.o-color--blue {
-  color: var(--color-blue);
+.o-color--mauve {
+  color: var(--color-mauve);
 }
 
-.o-color--light-blue {
-  color: var(--color-light-blue);
-}
-
-.o-color--light-red {
-  color: var(--color-light-red);
+.o-color--champagne {
+  color: var(--color-champagne);
 }
 
 .o-container {
@@ -246,7 +246,7 @@ ol, ul {
 
 @media (max-width: 576px) {
   .o-container {
-    width: 95%;
+    width: 90%;
   }
 }
 
@@ -275,7 +275,7 @@ ol, ul {
   width: 100%;
 }
 
-.base-font-primary, .o-font-primary-title-l1--light, .o-font-primary-title-l1--medium, .o-font-primary-title-l1--bold, .o-font-primary-title-l2--light, .o-font-primary-title-l2--medium, .o-font-primary-title-l2--bold, .o-font-primary-title-l3--light, .o-font-primary-title-l3--medium, .o-font-primary-title-l3--bold, .o-font-primary-title-l4--light, .o-font-primary-title-l4--medium, .o-font-primary-title-l4--bold, .o-font-primary-body-m--light, .o-font-primary-body-m--medium, .o-font-primary-body-m--bold, .o-font-primary-body-s--light, .o-font-primary-body-s--medium, .o-font-primary-body-s--bold, .o-font-primary-body-xs--light, .o-font-primary-body-xs--medium, .o-font-primary-body-xs--bold, .o-font-primary-body-xss--light, .o-font-primary-body-xss--medium, .o-font-primary-body-xss--bold {
+.base-font-primary, .o-font-primary-title-l1--light, .o-font-primary-title-l1--regular, .o-font-primary-title-l1--semibold, .o-font-primary-title-l1--extrabold, .o-font-primary-title-l2--light, .o-font-primary-title-l2--regular, .o-font-primary-title-l2--semibold, .o-font-primary-title-l2--extrabold, .o-font-primary-title-l3--light, .o-font-primary-title-l3--regular, .o-font-primary-title-l3--semibold, .o-font-primary-title-l3--extrabold, .o-font-primary-title-l4--light, .o-font-primary-title-l4--regular, .o-font-primary-title-l4--semibold, .o-font-primary-title-l4--extrabold, .o-font-primary-body-m--light, .o-font-primary-body-m--regular, .o-font-primary-body-m--semibold, .o-font-primary-body-m--extrabold, .o-font-primary-body-s--light, .o-font-primary-body-s--regular, .o-font-primary-body-s--semibold, .o-font-primary-body-s--extrabold, .o-font-primary-body-xs--light, .o-font-primary-body-xs--regular, .o-font-primary-body-xs--semibold, .o-font-primary-body-xs--extrabold, .o-font-primary-body-xss--light, .o-font-primary-body-xss--regular, .o-font-primary-body-xss--semibold, .o-font-primary-body-xss--extrabold {
   font-family: "Raleway", sans-serif;
   font-style: normal;
 }
@@ -289,16 +289,22 @@ ol, ul {
   font-weight: 300;
 }
 
-.o-font-primary-title-l1--medium {
+.o-font-primary-title-l1--regular {
   font-size: 3.75rem;
   line-height: 4.75rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.o-font-primary-title-l1--bold {
+.o-font-primary-title-l1--semibold {
   font-size: 3.75rem;
   line-height: 4.75rem;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.o-font-primary-title-l1--extrabold {
+  font-size: 3.75rem;
+  line-height: 4.75rem;
+  font-weight: 800;
 }
 
 .o-font-primary-title-l2--light {
@@ -314,27 +320,40 @@ ol, ul {
   }
 }
 
-.o-font-primary-title-l2--medium {
+.o-font-primary-title-l2--regular {
   font-size: 3rem;
   line-height: 3.5625rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 @media (max-width: 576px) {
-  .o-font-primary-title-l2--medium {
+  .o-font-primary-title-l2--regular {
     font-size: 2.125rem;
     line-height: 2.625rem;
   }
 }
 
-.o-font-primary-title-l2--bold {
+.o-font-primary-title-l2--semibold {
   font-size: 3rem;
   line-height: 3.5625rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 @media (max-width: 576px) {
-  .o-font-primary-title-l2--bold {
+  .o-font-primary-title-l2--semibold {
+    font-size: 2.125rem;
+    line-height: 2.625rem;
+  }
+}
+
+.o-font-primary-title-l2--extrabold {
+  font-size: 3rem;
+  line-height: 3.5625rem;
+  font-weight: 800;
+}
+
+@media (max-width: 576px) {
+  .o-font-primary-title-l2--extrabold {
     font-size: 2.125rem;
     line-height: 2.625rem;
   }
@@ -346,16 +365,22 @@ ol, ul {
   font-weight: 300;
 }
 
-.o-font-primary-title-l3--medium {
+.o-font-primary-title-l3--regular {
   font-size: 2rem;
   line-height: 2.375rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.o-font-primary-title-l3--bold {
+.o-font-primary-title-l3--semibold {
   font-size: 2rem;
   line-height: 2.375rem;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.o-font-primary-title-l3--extrabold {
+  font-size: 2rem;
+  line-height: 2.375rem;
+  font-weight: 800;
 }
 
 .o-font-primary-title-l4--light {
@@ -378,41 +403,61 @@ ol, ul {
   }
 }
 
-.o-font-primary-title-l4--medium {
+.o-font-primary-title-l4--regular {
   font-size: 1.375rem;
   line-height: 1.75rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 @media (max-width: 1200px) {
-  .o-font-primary-title-l4--medium {
+  .o-font-primary-title-l4--regular {
     font-size: 1.125rem;
     line-height: 1.4375rem;
   }
 }
 
 @media (max-width: 768px) {
-  .o-font-primary-title-l4--medium {
+  .o-font-primary-title-l4--regular {
     font-size: 1rem;
     line-height: 1.2375rem;
   }
 }
 
-.o-font-primary-title-l4--bold {
+.o-font-primary-title-l4--semibold {
   font-size: 1.375rem;
   line-height: 1.75rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 @media (max-width: 1200px) {
-  .o-font-primary-title-l4--bold {
+  .o-font-primary-title-l4--semibold {
     font-size: 1.125rem;
     line-height: 1.4375rem;
   }
 }
 
 @media (max-width: 768px) {
-  .o-font-primary-title-l4--bold {
+  .o-font-primary-title-l4--semibold {
+    font-size: 1rem;
+    line-height: 1.2375rem;
+  }
+}
+
+.o-font-primary-title-l4--extrabold {
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  font-weight: 800;
+}
+
+@media (max-width: 1200px) {
+  .o-font-primary-title-l4--extrabold {
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .o-font-primary-title-l4--extrabold {
     font-size: 1rem;
     line-height: 1.2375rem;
   }
@@ -430,16 +475,22 @@ ol, ul {
   font-weight: 300;
 }
 
-.o-font-primary-body-m--medium {
+.o-font-primary-body-m--regular {
   font-size: 1.125rem;
   line-height: 1.4375rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.o-font-primary-body-m--bold {
+.o-font-primary-body-m--semibold {
   font-size: 1.125rem;
   line-height: 1.4375rem;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.o-font-primary-body-m--extrabold {
+  font-size: 1.125rem;
+  line-height: 1.4375rem;
+  font-weight: 800;
 }
 
 .o-font-primary-body-s--light {
@@ -448,16 +499,22 @@ ol, ul {
   font-weight: 300;
 }
 
-.o-font-primary-body-s--medium {
+.o-font-primary-body-s--regular {
   font-size: 1rem;
   line-height: 1.25rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.o-font-primary-body-s--bold {
+.o-font-primary-body-s--semibold {
   font-size: 1rem;
   line-height: 1.25rem;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.o-font-primary-body-s--extrabold {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 800;
 }
 
 .o-font-primary-body-xs--light {
@@ -466,16 +523,22 @@ ol, ul {
   font-weight: 300;
 }
 
-.o-font-primary-body-xs--medium {
+.o-font-primary-body-xs--regular {
   font-size: 0.875rem;
   line-height: 1.125rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.o-font-primary-body-xs--bold {
+.o-font-primary-body-xs--semibold {
   font-size: 0.875rem;
   line-height: 1.125rem;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.o-font-primary-body-xs--extrabold {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 800;
 }
 
 .o-font-primary-body-xss--light {
@@ -484,16 +547,22 @@ ol, ul {
   font-weight: 300;
 }
 
-.o-font-primary-body-xss--medium {
+.o-font-primary-body-xss--regular {
   font-size: 0.75rem;
   line-height: 0.875rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.o-font-primary-body-xss--bold {
+.o-font-primary-body-xss--semibold {
   font-size: 0.75rem;
   line-height: 0.875rem;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.o-font-primary-body-xss--extrabold {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 800;
 }
 
 /* ========================================================================================= */
@@ -871,6 +940,66 @@ ol, ul {
 /* ========================================================================================= */
 /* COMPONENTS */
 /* ========================================================================================= */
+.c-image-and-content {
+  border-radius: 0px 150px 0px 0px;
+}
+
+.c-image-and-content__wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .c-image-and-content__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.c-image-and-content__wrapper-image {
+  width: 30%;
+}
+
+@media (max-width: 1024px) {
+  .c-image-and-content__wrapper-image {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}
+
+.c-image-and-content__image {
+  width: 80%;
+}
+
+@media (max-width: 1024px) {
+  .c-image-and-content__image {
+    width: 40%;
+  }
+}
+
+.c-image-and-content__text {
+  width: 70%;
+}
+
+.c-image-and-content__large-text {
+  margin-bottom: 50px;
+}
+
+.c-image-and-content__min-text {
+  margin-bottom: 10px;
+}
+
 /* ========================================================================================= */
 /* END COMPONENTS */
 /* ========================================================================================= */
