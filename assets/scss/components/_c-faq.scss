@@ -1,0 +1,32 @@
+.c-faq {
+	&__wrapper {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		@include lg() {
+			padding-top: 60px;
+			padding-bottom: 60px;
+		}
+	}
+	&__wrapper-content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__title {
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	&__wrapper-content-item {
+		width: 40%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		@include lg() {
+			width: 80%;
+		}
+
+		&-title {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+		}
+	}
+}
