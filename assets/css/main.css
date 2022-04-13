@@ -14,7 +14,6 @@ SEE OBJECTS/O-DIVIDER
   --color-success: #86c548;
   --color-error: #ff5252;
   --color-ocean: #637b90;
-  --color-black: #000000;
   --color-white: #ffffff;
   --color-gray: #f6f6f6;
   --color-mauve: #e58492;
@@ -108,10 +107,6 @@ ol, ul {
 
 .o-background--ocean {
   background: var(--color-ocean);
-}
-
-.o-background--black {
-  background: var(--color-black);
 }
 
 .o-background--white {
@@ -224,10 +219,6 @@ ol, ul {
 
 .o-color--ocean {
   color: var(--color-ocean);
-}
-
-.o-color--black {
-  color: var(--color-black);
 }
 
 .o-color--white {
