@@ -1098,8 +1098,28 @@ ol, ul {
 }
 
 .c-hero__wrapper-content__link {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 40px 0px;
+}
+
+.c-hero__wrapper-content__link-btn {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: white;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 100%;
 }
 
 .c-image-and-content {
