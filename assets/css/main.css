@@ -940,6 +940,168 @@ ol, ul {
 /* ========================================================================================= */
 /* COMPONENTS */
 /* ========================================================================================= */
+.c-hero {
+  position: relative;
+  background-image: url("/assets/images/hero.png");
+  background-size: cover;
+}
+
+.c-hero__baner {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 480px) {
+  .c-hero__baner {
+    display: none;
+  }
+}
+
+.c-hero__container {
+  width: 100%;
+  max-width: 100vw;
+  height: 800px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.c-hero__wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.c-hero__wrapper-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  max-height: 180px;
+  width: 100%;
+}
+
+.c-hero__wrapper-navbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  height: 180px;
+  width: 290px;
+  border-bottom-right-radius: 45%;
+}
+
+@media (max-width: 576px) {
+  .c-hero__wrapper-navbar-logo {
+    height: 130px;
+    width: 200px;
+  }
+}
+
+.c-hero__wrapper-navbar-menu {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 1024px) {
+  .c-hero__wrapper-navbar-menu {
+    display: none;
+  }
+}
+
+.c-hero__wrapper-navbar-menu-wrapper {
+  display: none;
+  padding: 0 40px;
+}
+
+@media (max-width: 1024px) {
+  .c-hero__wrapper-navbar-menu-wrapper {
+    display: block;
+  }
+}
+
+.c-hero__wrapper-navbar-menu-item > .o-button-outlined--primary {
+  background-color: rgba(254, 75, 38, 0.3);
+  border: 2px solid var(--color-primary);
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c-hero__wrapper-navbar-menu-item > .o-button-outlined--primary:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+}
+
+.c-hero__wrapper-navbar-menu-item > a:hover {
+  color: var(--color-primary);
+}
+
+.c-hero__wrapper-content {
+  height: 50%;
+  max-width: 95%;
+  padding: 80px 80px 50px 80px;
+  border-top-left-radius: 150px;
+  background-color: var(--color-white);
+}
+
+@media (max-width: 480px) {
+  .c-hero__wrapper-content {
+    padding: 80px 30px 50px 50px;
+  }
+}
+
+.c-hero__wrapper-content-title {
+  margin: 15px 0px;
+}
+
+@media (max-width: 576px) {
+  .c-hero__wrapper-content-title h2 {
+    color: var(--color-secondary);
+  }
+}
+
+.c-hero__wrapper-content__link {
+  display: block;
+  margin: 40px 0px;
+}
+
 .c-image-and-content {
   border-radius: 0px 150px 0px 0px;
 }
