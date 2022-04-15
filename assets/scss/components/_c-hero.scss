@@ -68,16 +68,20 @@
 				}
 			}
 
-			&-menu-item > .o-button-outlined--primary {
-				background-color: rgba(254, 75, 38, 0.3);
-				border: 2px solid var(--color-primary);
-				padding: 10px 20px;
-				border-radius: 10px;
-				transition: all 0.3s ease-in-out;
+			&-menu-item {
+				* {
+					transition: all 0.2s ease-in-out;
+				}
 
-				&:hover {
-					background-color: rgba(255, 255, 255, 0.2);
-					border: 2px solid white;
+				> .o-button-outlined--primary {
+					background-color: rgba(254, 75, 38, 0.3);
+					border: 2px solid var(--color-primary);
+					padding: 10px 20px;
+					border-radius: 10px;
+					&:hover {
+						background-color: rgba(255, 255, 255, 0.2);
+						border: 2px solid white;
+					}
 				}
 			}
 
@@ -114,13 +118,14 @@
 				margin: 40px 0px;
 
 				&-btn {
-					display: inline-block;
+					display: inline-flex;
+					align-items: center;
+					justify-content: center;
 					margin-right: 1rem;
 					font-size: 2rem;
 					color: white;
 					height: 50px;
 					width: 50px;
-					line-height: 50px;
 					text-align: center;
 					border-radius: 100%;
 				}

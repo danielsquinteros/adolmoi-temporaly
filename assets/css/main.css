@@ -1055,13 +1055,16 @@ ol, ul {
   }
 }
 
+.c-hero__wrapper-navbar-menu-item * {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
 .c-hero__wrapper-navbar-menu-item > .o-button-outlined--primary {
   background-color: rgba(254, 75, 38, 0.3);
   border: 2px solid var(--color-primary);
   padding: 10px 20px;
   border-radius: 10px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .c-hero__wrapper-navbar-menu-item > .o-button-outlined--primary:hover {
@@ -1111,13 +1114,20 @@ ol, ul {
 }
 
 .c-hero__wrapper-content__link-btn {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 1rem;
   font-size: 2rem;
   color: white;
   height: 50px;
   width: 50px;
-  line-height: 50px;
   text-align: center;
   border-radius: 100%;
 }
