@@ -1058,22 +1058,20 @@ ol, ul {
 .c-hero__wrapper-navbar-menu-item * {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid transparent;
 }
 
 .c-hero__wrapper-navbar-menu-item > .o-button-outlined--primary {
   background-color: rgba(254, 75, 38, 0.3);
   border: 2px solid var(--color-primary);
-  padding: 10px 20px;
-  border-radius: 10px;
-}
-
-.c-hero__wrapper-navbar-menu-item > .o-button-outlined--primary:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px solid white;
 }
 
 .c-hero__wrapper-navbar-menu-item > a:hover {
-  color: var(--color-primary);
+  border: 2px solid var(--color-white);
+  background-color: rgba(254, 75, 38, 0.3);
+  color: var(--color-white);
 }
 
 .c-hero__wrapper-content {
