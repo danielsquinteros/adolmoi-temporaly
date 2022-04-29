@@ -1162,12 +1162,7 @@ ol, ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media (max-width: 480px) {
-  .c-header__baner {
-    display: none;
-  }
+  text-align: center;
 }
 
 .c-header__container {

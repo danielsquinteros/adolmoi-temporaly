@@ -11,10 +11,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
-		@include xs() {
-			display: none;
-		}
+		text-align: center;
 	}
 	&__container {
 		width: 100%;
