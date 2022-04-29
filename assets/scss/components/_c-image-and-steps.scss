@@ -1,35 +1,25 @@
 .c-image-and-steps {
 	&__wrapper {
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 80px;
+		padding-bottom: 80px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		@include md() {
+		@include lg() {
 			flex-direction: column;
 			align-items: baseline;
-			padding-bottom: 0px;
-			position: relative;
 		}
 	}
 	&__wrapper-image {
 		display: flex;
-		width: 35%;
+		width: 45%;
 		align-items: stretch;
-		@include xl() {
-			width: 40%;
-		}
-		@include lg() {
-			width: 45%;
-		}
 		@include md() {
 			width: 80%;
 			margin-bottom: 50px;
 		}
 		@include xs() {
-			justify-content: center;
-			width: 100vw;
-			margin-bottom: 0px;
+			width: 100%;
 		}
 	}
 	&__wrapper-steps {
@@ -65,13 +55,11 @@
 	}
 	&__image {
 		height: 100%;
-		width: 100%;
+		width: 80%;
 		object-fit: cover;
 		object-position: 100% 0;
 		@include xs() {
-			width: 100vw;
-			position: relative;
-			left: calc(-50vw + 50%);
+			width: 80%;
 		}
 	}
 	&__text {
