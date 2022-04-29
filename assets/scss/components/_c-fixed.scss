@@ -1,0 +1,20 @@
+.c-fixed{
+    display: flex;
+    position: fixed;
+    top: 86%;
+    right: 2%;
+    z-index: 10;
+    align-items: center;
+    @include md(){
+        top: 85%;
+        z-index: 10;
+    }
+    &__whatsapp{
+        height: 60px;
+        width: 60px;
+       @include md(){
+        height: 60px;
+        width: 60px;
+       } 
+    }
+}

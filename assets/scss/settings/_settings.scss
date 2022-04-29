@@ -43,8 +43,12 @@ $sizes: (
 	'30': 30px,
 	'32': 32px,
 	'34': 34px,
+	'36': 36px,
 	'38': 38px,
+	'40': 40px,
+	'42': 42px,
 	'50': 50px,
+	'60': 60px,
 	'70': 70px,
 );
 
@@ -107,7 +111,7 @@ $font-primary-weights: (
 		font-size: 3rem;
 		line-height: 3.5625rem;
 		//LEVEL 2 SM= 34px
-		@include sm() {
+		@include md() {
 			font-size: 2.125rem;
 			line-height: 2.625rem;
 		}
