@@ -1072,6 +1072,13 @@ ol, ul {
   margin-bottom: 45px;
 }
 
+@media (max-width: 768px) {
+  .c-footer__divider {
+    margin-top: 15px;
+    margin-bottom: 45px;
+  }
+}
+
 .c-footer__wrapper-item {
   width: 100%;
   margin-top: 5px;
@@ -1091,7 +1098,6 @@ ol, ul {
 
 .c-footer__icons {
   margin-left: 10px;
-  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
@@ -1099,41 +1105,6 @@ ol, ul {
     margin-left: 0px;
     margin-right: 20px;
   }
-}
-
-.c-menu-movil {
-  position: fixed;
-  top: 150%;
-  width: 100%;
-  height: 100vh;
-  background: #ffff;
-  z-index: 2;
-}
-
-.c-menu-movil__close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 40px;
-  cursor: pointer;
-}
-
-.c-menu-movil__socials {
-  position: absolute;
-  bottom: 60;
-  left: 0;
-  margin-left: 30px;
-  margin-bottom: 60px;
-}
-
-.c-menu-movil__item {
-  position: relative;
-  padding: 0 6vw;
-  margin-bottom: 40px;
-}
-
-.c-menu-movil__wrapper-item {
-  padding: 10vh 0 25vh;
 }
 
 .c-header {
@@ -1247,6 +1218,21 @@ ol, ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-header__li:nth-child(4) {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid var(--color-white);
+}
+
+.c-header__li:nth-child(4):hover {
+  background-color: rgba(21, 21, 21, 0.3);
 }
 
 .c-header__wrapper-content {
@@ -1309,6 +1295,41 @@ ol, ul {
   .c-header__open {
     display: block;
   }
+}
+
+.c-menu-movil {
+  position: fixed;
+  top: 150%;
+  width: 100%;
+  height: 100vh;
+  background: #ffff;
+  z-index: 2;
+}
+
+.c-menu-movil__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 40px;
+  cursor: pointer;
+}
+
+.c-menu-movil__socials {
+  position: absolute;
+  bottom: 60;
+  left: 0;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+.c-menu-movil__item {
+  position: relative;
+  padding: 0 6vw;
+  margin-bottom: 40px;
+}
+
+.c-menu-movil__wrapper-item {
+  padding: 10vh 0 25vh;
 }
 
 .c-image-and-content {
@@ -1526,7 +1547,6 @@ ol, ul {
 @media (max-width: 768px) {
   .c-image-and-steps__wrapper-image {
     width: 80%;
-    margin-bottom: 50px;
   }
 }
 
@@ -1616,8 +1636,8 @@ ol, ul {
 
 @media (max-width: 1024px) {
   .c-faq__wrapper {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
@@ -1633,7 +1653,6 @@ ol, ul {
 }
 
 .c-faq__title {
-  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -1645,7 +1664,7 @@ ol, ul {
 
 @media (max-width: 1024px) {
   .c-faq__wrapper-content-item {
-    width: 80%;
+    width: 90%;
   }
 }
 

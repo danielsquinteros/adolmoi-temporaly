@@ -16,7 +16,6 @@
 		align-items: stretch;
 		@include md() {
 			width: 80%;
-			margin-bottom: 50px;
 		}
 		@include xs() {
 			width: 100%;

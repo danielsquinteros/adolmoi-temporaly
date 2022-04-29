@@ -3,8 +3,8 @@
 		padding-top: 100px;
 		padding-bottom: 100px;
 		@include lg() {
-			padding-top: 60px;
-			padding-bottom: 60px;
+			padding-top: 80px;
+			padding-bottom: 80px;
 		}
 	}
 	&__wrapper-content {
@@ -13,7 +13,7 @@
 		justify-content: space-between;
 	}
 	&__title {
-		margin-top: 1.5rem;
+		// margin-top: 1.5rem;
 		margin-bottom: 1.5rem;
 	}
 	&__wrapper-content-item {
@@ -21,7 +21,7 @@
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		@include lg() {
-			width: 80%;
+			width: 90%;
 		}
 
 		&-title {
